@@ -7,7 +7,7 @@ A stylish and functional PowerShell profile that looks and feels almost as good 
 Execute the following command in an elevated PowerShell window to install the PowerShell profile:
 
 ```
-irm "https://github.com/ChrisTitusTech/powershell-profile/raw/main/setup.ps1" | iex
+irm "https://github.com/ozukoc/powershell-profile/raw/main/setup.ps1" | iex
 ```
 
 ## 🛠️ Fix the Missing Font
@@ -48,3 +48,5 @@ PS> oh-my-posh font install
 After the profile is installed and active, run the `Edit-Profile` function to create a separate profile file for your current user. Make any changes and customizations in this new file named `profile.ps1`.
 
 Now, enjoy your enhanced and stylish PowerShell experience! 🚀
+
+This repo is forked from [ChrisTitusTech](https://github.com/ChrisTitusTech/), all the credits should go to him first. 😊
