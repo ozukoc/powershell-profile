@@ -157,7 +157,7 @@ function Test-CommandExists {
 #           elseif (Test-CommandExists notepad++) { 'notepad++' }
 #           elseif (Test-CommandExists sublime_text) { 'sublime_text' }
 #           else { 'notepad' }
-Set-Alias -Name vim -Value 'C:\tools\vim\vim91\vim.exe'
+Set-Alias -Name vim -Value 'C:\Program Files\Vim\vim91\vim.exe'
 
 # Quick Access to Editing the Profile
 function Edit-Profile {
