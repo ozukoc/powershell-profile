@@ -169,7 +169,7 @@ function Test-CommandExists {
 }
 
 # Editor Configuration
-Set-Alias vim "C:\Program Files\Vim\vim91\vim.exe"
+
 $EDITOR = if (Test-CommandExists nvim) { 'nvim' }
           elseif (Test-CommandExists pvim) { 'pvim' }
           elseif (Test-CommandExists vim) { 'vim' }
@@ -179,6 +179,7 @@ $EDITOR = if (Test-CommandExists nvim) { 'nvim' }
           elseif (Test-CommandExists notepad++) { 'notepad++' }
           elseif (Test-CommandExists sublime_text) { 'sublime_text' }
           else { 'notepad' }
+Set-Alias vim "C:\Program Files\Vim\vim91\vim.exe"
 Set-Alias -Name vim -Value $EDITOR
 
 
