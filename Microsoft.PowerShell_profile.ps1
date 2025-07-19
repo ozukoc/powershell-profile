@@ -170,17 +170,17 @@ function Test-CommandExists {
 
 # Editor Configuration
 
-$EDITOR = if (Test-CommandExists nvim) { 'nvim' }
-          elseif (Test-CommandExists pvim) { 'pvim' }
-          elseif (Test-CommandExists vim) { 'vim' }
-          elseif (Test-CommandExists vi) { 'vi' }
-          elseif (Test-CommandExists code) { 'code' }
-          elseif (Test-CommandExists codium) { 'codium' }
-          elseif (Test-CommandExists notepad++) { 'notepad++' }
-          elseif (Test-CommandExists sublime_text) { 'sublime_text' }
-          else { 'notepad' }
+#$EDITOR = if (Test-CommandExists nvim) { 'nvim' }
+#          elseif (Test-CommandExists pvim) { 'pvim' }
+#          elseif (Test-CommandExists vim) { 'vim' }
+#          elseif (Test-CommandExists vi) { 'vi' }
+#          elseif (Test-CommandExists code) { 'code' }
+#         elseif (Test-CommandExists codium) { 'codium' }
+#          elseif (Test-CommandExists notepad++) { 'notepad++' }
+#          elseif (Test-CommandExists sublime_text) { 'sublime_text' }
+#          else { 'notepad' }
 Set-Alias vim "C:\Program Files\Vim\vim91\vim.exe"
-Set-Alias -Name vim -Value $EDITOR
+#Set-Alias -Name vim -Value $EDITOR
 
 
 # Quick Access to Editing the Profile
