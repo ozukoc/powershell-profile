@@ -186,8 +186,7 @@ $EDITOR = if (Test-CommandExists nvim) { 'nvim' }
           else { 'notepad' }
           else { 'notepad' }
 Set-Alias -Name vim -Value $EDITOR
-    Set-Alias -Name vim -Value $EDITOR
-}
+
 
 # Quick Access to Editing the Profile
 function Edit-Profile {
